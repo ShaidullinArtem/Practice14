@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Practice14</string>
+    <string name="correct_toast">Success</string>
+    <string name="wrong_toast">Incorrect</string>
+    <string name="button_true_text">True</string>
+    <string name="button_false_text">False</string>
+    <string name="finish">Finish</string>
+</resources>
