@@ -9,4 +9,5 @@
     <color name="white">#FFFFFFFF</color>
     <color name="primary">#E4E7FF</color>
     <color name="danger">#FFE9FF</color>
+    <color name="primary_dark">#D893B1</color>
 </resources>

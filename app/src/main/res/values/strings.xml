@@ -5,4 +5,6 @@
     <string name="button_true_text">True</string>
     <string name="button_false_text">False</string>
     <string name="finish">Finish</string>
+    <string name="button_back">Back</string>
+    <string name="button_next">Next</string>
 </resources>

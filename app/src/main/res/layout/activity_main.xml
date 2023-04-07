@@ -14,15 +14,15 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text=""
-        android:textSize="26dp"
+        android:textAlignment="center"
+        android:textSize="26sp"
         android:textStyle="bold"
-        android:textFontWeight="700"
         android:textColor="@color/white" />
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="vertical"
+        android:orientation="horizontal"
         app:layout_constraintVertical_bias="1"
         android:layout_marginTop="48dp"
         android:textStyle="normal"
@@ -34,7 +34,6 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:textStyle="normal"
-            android:textFontWeight="500"
             android:layout_marginBottom="12dp"
             android:text="@string/button_true_text"
             android:background="@drawable/primary_button"/>
@@ -44,9 +43,37 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:textFontWeight="500"
+            android:layout_marginLeft="10dp"
             android:text="@string/button_false_text"
             android:background="@drawable/danger_button"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintVertical_bias="1"
+        android:textStyle="normal"
+        android:paddingHorizontal="68dp">
+
+        <Button
+            android:id="@+id/button_back"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textStyle="normal"
+            android:layout_marginBottom="12dp"
+            android:text="@string/button_back"
+            android:background="@drawable/primary_dark_button"/>
+
+        <Button
+            android:id="@+id/button_next"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginLeft="10dp"
+            android:text="@string/button_next"
+            android:background="@drawable/primary_dark_button"/>
     </LinearLayout>
 
 </LinearLayout>
